@@ -20,10 +20,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-   // callToAction: {
-    //    text: "Register now!",
-      //  link: "http://eventick.com.br"
-  //  },
+   callToAction: {
+       text: "Inscreva-se!",
+      link: "http://eventick.com.br"
+    },
 
       // "Fork me on GitHub", if you don't want this, just remove the forkButton property
       //  forkButton: {
@@ -64,9 +64,28 @@ module.exports = {
 
     // The entire schedule
     schedule: [
-      {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+              {
+        name: "Google",
+        photo: "themes/yellow-swan/img/speaker.jpg",
+        bio: "A Google I/O é uma conferência anual de desenvolvedores com foco em software realizada pelo Google em San Francisco, Califórnia. Na Google I/O apresentam-se keynotes altamente técnicos, sessões focadas em desenvolvimento web, e aplicações empresariais móveis com o tecnologias Open-source do Google, como Android , Chrome, Chrome OS, APIs do Google , o Google Web Toolkit , App Engine, e muito mais!",
+        company: "Google Inc.",
+        link: {
+          href: "https://twitter.com/google",
+          text: "@Google"
+        },
+        presentation: {
+          title: "Google I/O Main Keynote",
+          description: "Junte-se a nós para aprender sobre as inovações dos produtos e plataformas do Google, começando com um pontapé inicial ao vivo do Vice- Presidente Sênior de Produtos, Sundar Pichai.",
+          time: "13h00"
+        }
+      },
+     {
+        name: "Check-in",
+        time: "19h30"
+      },
+    {
+        name: "Abertura Keynote Local",
+        time: "19h40"
       },
       {
         name: "Guilherme Berghauser",
@@ -83,21 +102,7 @@ module.exports = {
           time: "20h00"
         }
       },
-      {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
-        link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
-        },
-        presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
-        }
-      },
+
       {
         name: "Lunch",
         time: "12h00"
