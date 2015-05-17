@@ -1,6 +1,5 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p>Confira então como fica a nossa programação. <i>(Horários, assuntos e Palestrantes sujeitos à alterações até a data do evento - O início e encerramento não serão alterados)</i>.</p>
 <div class="schedule-tbl">
   <table>
     <thead>

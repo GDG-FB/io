@@ -48,7 +48,7 @@ module.exports = {
       'schedule',
       'sponsors',
       'partners'
-      // 'contact'
+      //'contact'
     ],
 
         // Labels which you can translate to other languages
@@ -189,19 +189,44 @@ module.exports = {
 
         // List of Sponsors
         sponsors: [
+                  {
+                name: "Google",
+                logo: "themes/yellow-swan/img/sponsors/google.png",
+                url: "http://google.com"
+      },
             {
-                name: "Eventick",
-                logo: "themes/yellow-swan/img/sponsor.png",
-                url: "http://eventick.com.br"
+                name: "SEBRAE PR",
+                logo: "themes/yellow-swan/img/sponsors/sebrae.png",
+                url: "http://www.sebraepr.com.br/sites/PortalSebrae"
+      },
+              {
+                name: "WMITRUT - Tecnologia e Design",
+                logo: "themes/yellow-swan/img/sponsors/wmitrut.png",
+                url: "http://wmitrut.com"
       }
     ],
 
         // List of Partners
         partners: [
+              {
+                name: "Google Developers",
+                logo: "themes/yellow-swan/img/partners/googledev.png",
+                url: "http://developers.google.com/"
+      },
             {
-                name: "BrazilJS",
-                logo: "themes/yellow-swan/img/partner.png",
-                url: "http://braziljs.org"
+                name: "GDG Pato Branco",
+                logo: "themes/yellow-swan/img/partners/gdgpb.png",
+                url: "http://gdgpatobranco.org/"
+      },
+         {
+                name: "SEBRAE PR",
+                logo: "themes/yellow-swan/img/partners/sebrae.png",
+                url: "http://www.sebraepr.com.br/sites/PortalSebrae"
+      },
+             {
+                name: "PatoLivre",
+                logo: "themes/yellow-swan/img/partners/patolivre.png",
+                url: "http://patolivre.tk/"
       }
     ],
 
