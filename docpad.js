@@ -262,6 +262,11 @@ module.exports = {
                 name: "CEICOM - Tecnologia Web",
                 logo: "themes/yellow-swan/img/partners/ceicom.png",
                 url: "www.ceicom.com.br"
+      },
+                                     {
+                name: "Hector Felipe Cabral",
+                logo: "themes/yellow-swan/img/partners/hfc.png",
+                url: "http://www.hectorfelipecabral.com.br/"
       }
         
     ],
