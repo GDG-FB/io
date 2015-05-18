@@ -46,7 +46,7 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      'sponsors',
+    //  'sponsors',
       'partners'
       //'contact'
     ],
@@ -209,6 +209,11 @@ module.exports = {
         // List of Partners
         partners: [
               {
+                name: "Google",
+                logo: "themes/yellow-swan/img/sponsors/google.png",
+                url: "http://google.com"
+      },
+              {
                 name: "Google Developers",
                 logo: "themes/yellow-swan/img/partners/googledev.png",
                 url: "http://developers.google.com/"
@@ -223,11 +228,42 @@ module.exports = {
                 logo: "themes/yellow-swan/img/partners/sebrae.png",
                 url: "http://www.sebraepr.com.br/sites/PortalSebrae"
       },
+                {
+                name: "ACEFB",
+                logo: "themes/yellow-swan/img/partners/acefb.png",
+                url: "http://www.acefb.com.br/"
+      },
+                      {
+                name: "NUBETEC",
+                logo: "themes/yellow-swan/img/partners/nubetec.png",
+                url: "https://www.facebook.com/nubetec"
+      },
+                            {
+                name: "GBG Sudoeste",
+                logo: "themes/yellow-swan/img/partners/gbg.png",
+                url: "https://plus.google.com/communities/105251408349562568852"
+      },
              {
                 name: "PatoLivre",
                 logo: "themes/yellow-swan/img/partners/patolivre.png",
                 url: "http://patolivre.tk/"
+      },
+                       {
+                name: "WMITRUT - Tecnologia e Design",
+                logo: "themes/yellow-swan/img/partners/wmitrut.png",
+                url: "http://wmitrut.com"
+      },
+                                {
+                name: "Invent.to - Pesquisa e Desenvolvimento",
+                logo: "themes/yellow-swan/img/partners/inventto.png",
+                url: "http://invent.to"
+      },
+            {
+                name: "CEICOM - Tecnologia Web",
+                logo: "themes/yellow-swan/img/partners/ceicom.png",
+                url: "www.ceicom.com.br"
       }
+        
     ],
 
         // Theme path
