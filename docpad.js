@@ -92,7 +92,7 @@ module.exports = {
             {
                 name: "Guilherme Berghauser",
                 photo: "themes/yellow-swan/img/speakers/torto.png",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                bio: "Estudante de Sistema de Informação pela UTFPR – Pato Branco, voluntário da Mozilla (Mozillian), participa do projeto Firefox Student Ambassador,membro do grupo de usuários de Software Livre PatoLivre, Sócio-Fundador da QiLeverage empresa especializada no desenvolvimento de softwares educacionais, foi professor durante sete anos e nos últimos cinco anos se dedica ao desenvolvimento web e mobile, em especial com Apache Cordova.",
                 company: "Mozilla Foundation",
                 link: {
                     href: "http://twitter.com/tortoyo",
@@ -100,7 +100,7 @@ module.exports = {
                 },
                 presentation: {
                     title: "Node.JS",
-                    description: "Estudante de Sistema de Informação pela UTFPR – Pato Branco, voluntário da Mozilla (Mozillian), participa do projeto Firefox Student Ambassador,membro do grupo de usuários de Software Livre PatoLivre, Sócio-Fundador da QiLeverage empresa especializada no desenvolvimento de softwares educacionais, foi professor durante sete anos e nos últimos cinco anos se dedica ao desenvolvimento web e mobile, em especial com Apache Cordova.",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
                     time: "19h40"
                 }
       },
