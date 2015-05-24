@@ -100,14 +100,14 @@ module.exports = {
                 },
                 presentation: {
                     title: "Node.JS",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    description: "Node.js é um servidor javascript que utiliza o motor V8 do google, nessa palestra você vai entender como ele funciona e ver na prática consumindo dados de um Arduino.",
                     time: "19h40"
                 }
       },
             {
                 name: "Wellington Mitrut",
                 photo: "themes/yellow-swan/img/speakers/mitrut.jpeg",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                bio: "Fundador do Google Developers Group Francisco Beltrão, formado em Sistemas de Informação pela UNIPAR - Universidade Paranaense, apaixonado por design e por descobrir como funcionam as coisas, sócio da WMITRUT - tecnologia e design, trabalhando a mais de 3 anos com design e desenvolvimento web e mobile por uma internet mais bonita e coesa.",
                 company: "GDG Francisco Beltrão",
                 link: {
                     href: "http://twitter.com/wmitrut",
@@ -165,17 +165,17 @@ module.exports = {
                 }
       },
             {
-                name: "Robison Cris Brito (A CONFIRMAR) ",
-                photo: "themes/yellow-swan/img/speakers/brito.JPG",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                name: "Wellton Costa",
+                photo: "themes/yellow-swan/img/speakers/wellton.jpg",
+                bio: "Wellton é doutorando em engenharia elétrica e informática industrial com ênfase em inteligência artificial para web; Atualmente é professor do magistério superior (graduação) e professor no curso de especialização, ambos no Departamento de informática da UTFPR",
                 company: "UTFPR",
                 link: {
-                    href: "http://twitter.com/robisonbrito",
-                    text: "@robisonbrito"
+                    href: "http://twitter.com/WelltonCosta",
+                    text: "@WelltonCosta"
                 },
                 presentation: {
-                    title: "( A Confirmar )",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "ChromeOS e Software Livre",
+                    description: " A palestra está dividida em três partes: A primeira fala sobre o ChromeBook, seu sistema operacional ChromeOS e como faze-lo se transformar no modulo desenvolvedor. A segunda parte fala sobre Software Livre e qual o envolvimento do Google com este mundo (servidores, ambientes de desenvolvimento, produtos...). A terceira parte fala sobre drones e como controla-lo com um ChromeBook.",
                     time: "22h10"
                 }
       },
@@ -238,7 +238,18 @@ module.exports = {
                 logo: "themes/yellow-swan/img/partners/nubetec.png",
                 url: "https://www.facebook.com/nubetec"
       },
-                            {
+                  {
+                name: "CITFEB",
+                logo: "themes/yellow-swan/img/partners/citfeb.png",
+                url: "#"
+      },
+                                             {
+                name: "UTFPR",
+                logo: "themes/yellow-swan/img/partners/utfpr.png",
+                url: "http://www.utfpr.edu.br/"
+      },
+        
+            {
                 name: "GBG Sudoeste",
                 logo: "themes/yellow-swan/img/partners/gbg.png",
                 url: "https://plus.google.com/communities/105251408349562568852"
@@ -263,11 +274,39 @@ module.exports = {
                 logo: "themes/yellow-swan/img/partners/ceicom.png",
                 url: "www.ceicom.com.br"
       },
+                 {
+                name: "Stickers Devs",
+                logo: "themes/yellow-swan/img/partners/stickers.png",
+                url: "http://www.stickersdevs.com.br/"
+      },
                                      {
                 name: "Hector Felipe Cabral",
                 logo: "themes/yellow-swan/img/partners/hfc.png",
                 url: "http://www.hectorfelipecabral.com.br/"
+      },
+                                    {
+                name: "ADHOC - 3D Productions",
+                logo: "themes/yellow-swan/img/partners/adhoc.png",
+                url: "https://www.facebook.com/adhoc3d"
+      },
+                                         {
+                name: "ParseInt Sistemas",
+                logo: "themes/yellow-swan/img/partners/parseint.png",
+                url: "http://parseint.com.br/"
+      },
+                                       {
+                name: "Cisterlabs - Fábrica de software",
+                logo: "themes/yellow-swan/img/partners/cisterlabs.png",
+                url: "http://www.cisterlabs.com.br/"
+      },
+                                   {
+                name: "Zombie Zoid Zenith",
+                logo: "themes/yellow-swan/img/partners/zzz.png",
+                url: "https://www.facebook.com/adhoc3d"
       }
+                        
+
+        
         
     ],
 
