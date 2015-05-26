@@ -122,7 +122,7 @@ module.exports = {
             {
                 name: "José Luiz Tafarel",
                 photo: "themes/yellow-swan/img/speakers/tafarel.jpg",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                bio: "José Luiz Tafarel é graduando do curso de sistemas de informação na UNIPAR Francisco Beltrão, sócio-fundador da Codoks e também atua como desenvolvedor Android na Tagon8. Trabalha com a plataforma Android a aproximadamente 3 anos.",
                 company: "Codoks",
                 link: {
                     href: "http://twitter.com/jltafarel",
@@ -130,7 +130,7 @@ module.exports = {
                 },
                 presentation: {
                     title: "Integração android e hardware",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    description: "Nesta palestra serão apresentados os conceitos de integração com hardware utlizando o Android, mais especificamente uma estrutura implementada a partir do Android 3.1, chamada 'USB Host'.",
                     time: "20h40"
                 }
       },
