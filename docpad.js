@@ -137,7 +137,7 @@ module.exports = {
             {
                 name: "Leandro Parazito",
                 photo: "themes/yellow-swan/img/speakers/para.jpg",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                bio: "Desenvolvedor web front-end. Entusiasta de tecnologias voltadas para plataforma web. Acredita que a web é o futuro.",
                 company: "GDG Pato Branco",
                 link: {
                     href: "http://twitter.com/parazito",
@@ -152,15 +152,15 @@ module.exports = {
             {
                 name: "Jonathan Santos",
                 photo: "themes/yellow-swan/img/speakers/joridos.jpg",
-                bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                bio: "Cozinheiro da internet, sempre em busca de novas maneiras de cozinhar.",
                 company: "Ceicom",
                 link: {
                     href: "http://twitter.com/jorids",
                     text: "@joridos"
                 },
                 presentation: {
-                    title: "Polymer",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+                    title: "Webcomponents: Basic Concepts",
+                    description: "Até agora, você pode ter ouvido um monte de coisas sobre Web Components. Algumas pessoas dizem que é a terra prometida, outros dizem que isso é exagero. Se você ainda não tem certeza sobre o que exatamente são os Web Components ou até mesmo o 'por que' você deve se preocupar com isso, esta palestra é para você.",
                     time: "21h40"
                 }
       },
@@ -243,6 +243,11 @@ module.exports = {
                 logo: "themes/yellow-swan/img/partners/citfeb.png",
                 url: "#"
       },
+                                   {
+                name: "SEMDETEC",
+                logo: "themes/yellow-swan/img/partners/semdetec.png",
+                url: "#"
+      },
                                              {
                 name: "UTFPR",
                 logo: "themes/yellow-swan/img/partners/utfpr.png",
@@ -303,6 +308,21 @@ module.exports = {
                 name: "Zombie Zoid Zenith",
                 logo: "themes/yellow-swan/img/partners/zzz.png",
                 url: "https://www.facebook.com/adhoc3d"
+      },
+                                       {
+                name: "Plex Coworking",
+                logo: "themes/yellow-swan/img/partners/plex.png",
+                url: "http://www.plexcoworking.com.br/"
+      },
+                             {
+                name: "Megasult",
+                logo: "themes/yellow-swan/img/partners/megasult.png",
+                url: "http://www.megasult.com.br/"
+      },
+                  {
+                name: "A.inova",
+                logo: "themes/yellow-swan/img/partners/ainova.png",
+                url: "http://www.ainovaconsultores.com.br/"
       }
                         
 
