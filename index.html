@@ -373,6 +373,7 @@
                     var lon = -53.0551466;
                     var myOptions = {
                       zoom:17,
+                      scrollwheel: false,
                       center:new google.maps.LatLng(lat,lon),
                       mapTypeId: google.maps.MapTypeId.ROADMAP};
                       map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
