@@ -20,9 +20,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a {
-  color: #000;
-}
 a:focus {
   outline: none;
 }
