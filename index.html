@@ -19,7 +19,7 @@
                 <div class="site-branding">
                     <a class="logo" href="index.html">
                         <img src="assets/images/io.png" alt="Logo" width="70" height="50">
-                        Extended 2016 - Sudoeste do Paraná
+                        Extended 2016
                     </a>
                 </div>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
@@ -361,7 +361,29 @@
                     </address>
                 </div>
                 <div class="col-sm-9">
-                  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(-26.079187915681388,-53.05304142593384),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-26.079187915681388,-53.05304142593384)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Rua Octaviano Teixeira dos Santos, 1.121, Francisco Beltrão, Paraná 85601-030, Brasil<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                  <div style='overflow:hidden;height:440px;width:100%;'>
+                    <div id='gmap_canvas' style='height:440px;width:100%;'></div>
+                  </div>
+
+                  <script type='text/javascript'>
+                  function init_map(){
+                    // -26.080896,-53.0551466,21
+                    var lat = -26.080896;
+                    var lon = -53.0551466;
+                    var myOptions = {
+                      zoom:17,
+                      center:new google.maps.LatLng(lat,lon),
+                      mapTypeId: google.maps.MapTypeId.ROADMAP};
+                      map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                      marker = new google.maps.Marker({
+                        map: map,
+                        position: new google.maps.LatLng(lat,lon)
+                      });
+                    }
+                    google.maps.event.addDomListener(window, 'load', init_map);
+                  </script>
+
                 </div>
             </div>
         </div>
@@ -378,6 +400,9 @@
                         <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
                         <li><a href=""><i class="ion-social-googleplus"></i></a></li>
                     </ul>
+                    <small>
+                      <a href="https://github.com/technext/conference">Inspirado em technext/conference</a>
+                    </small>
                 </div>
             </div>
         </div>
