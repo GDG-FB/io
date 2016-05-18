@@ -8,16 +8,19 @@ $(window).scroll(function(){
 
 $(window).load(function(){
 	handleTopNavAnimation();
+
+	var liveSection = document.querySelector('a[href="#live"');
+	liveSection.click();
 });
 
 function handleTopNavAnimation() {
 	var top=$(window).scrollTop();
 
 	if(top>10){
-		$('#site-nav').addClass('navbar-solid'); 
+		$('#site-nav').addClass('navbar-solid');
 	}
 	else{
-		$('#site-nav').removeClass('navbar-solid'); 
+		$('#site-nav').removeClass('navbar-solid');
 	}
 }
 
@@ -27,7 +30,7 @@ function handleTopNavAnimation() {
 
 $('#registration-form').submit(function(e){
     e.preventDefault();
-    
+
     var postForm = { //Fetch form data
             'fname'     : $('#registration-form #fname').val(),
             'lname'     : $('#registration-form #lname').val(),
